@@ -46,7 +46,7 @@ export default function Newuser() {
           </div>
          
         </form>
-   <input type="submit" className='bu'/>
+        <button className='bu'> Create</button>
     </div>
   )
 }
