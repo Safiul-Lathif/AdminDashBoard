@@ -1,7 +1,7 @@
 import React from "react";
 import "./NewUser.css";
 
-export default function Newuser() {
+export default function NewUser() {
   return (
     <div className="newuser">
       <h1 className="newusertitle">New User</h1>
@@ -14,6 +14,7 @@ export default function Newuser() {
           <label> Full Name </label>
           <input type="text" />
         </div>
+
         <div className="newuseritem">
           <label> Email </label>
           <input type="email" />
