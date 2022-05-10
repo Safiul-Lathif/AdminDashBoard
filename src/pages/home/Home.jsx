@@ -3,7 +3,7 @@ import Chart from "../../Components/Chart/Chart";
 import Featuredubfo from "../../Components/FeaturedInfo/FeaturedInfo";
 import Widgetlg from "../../Components/WidgetLg/WidgetLg";
 import Widgetsm from "../../Components/WidgetSm/WidgetSm";
-import { userData } from "../UserList/dummyData";
+import { userData } from "../../dummyData";
 
 import "./Home.css";
 

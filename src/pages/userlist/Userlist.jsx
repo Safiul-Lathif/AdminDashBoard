@@ -2,12 +2,11 @@ import { React, useState } from "react";
 import "./UserList.css";
 import { DataGrid } from "@mui/x-data-grid";
 import { DeleteOutline } from "@mui/icons-material";
-import { userRows } from "./dummyData";
+import { userRows } from "../../dummyData";
 import { Link } from "react-router-dom";
 
 export default function UserList() {
   const [data, setData] = useState(userRows);
-
   const handleDelete = (id) => {
     setData(data.filter((item) => item.id !== id));
   };

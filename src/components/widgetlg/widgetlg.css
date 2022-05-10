@@ -4,48 +4,59 @@
   box-shadow: 0px 0px 15px -10px #000000;
   padding: 20px;
 }
+
 .widgetlgtitle {
   font-size: 32px;
   font-weight: 600;
 }
+
 .widgetlgimage {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
 }
+
 .Widgetlgbutton {
   padding: 5px 7px;
   border: none;
   border-radius: 10px;
 }
+
 .Widgetlgbutton.Approved {
   background-color: #e5faf2;
   color: #3bb077;
 }
+
 .Widgetlgbutton.Declined {
   background-color: #fff0f1;
   color: darkred;
 }
+
 .Widgetlgbutton.Pending {
   background-color: #ebf1fe;
   color: darkblue;
 }
+
 .widgetlgtable {
   width: 100%;
   border-spacing: 20px;
 }
+
 .widgetlgth {
   text-align: left;
 }
+
 .widgetlguser {
   align-items: center;
   display: flex;
 }
+
 .widgetlgname {
   margin-left: 10px;
   font-weight: 600;
 }
+
 .widgetlgdate,
 .widgetlgamount {
   font-weight: 200;
