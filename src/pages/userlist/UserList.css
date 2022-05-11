@@ -1,0 +1,29 @@
+.userlist {
+  flex: 4;
+}
+.love {
+  display: flex;
+  align-items: center;
+}
+.lovee {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.userlistedit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.ss {
+  color: red;
+  cursor: pointer;
+}

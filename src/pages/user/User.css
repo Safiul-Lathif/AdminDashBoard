@@ -1,0 +1,129 @@
+.user{
+    flex: 4;
+    padding: 20px;
+}
+.usertitlecontainer{
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.useraddbutton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+.usercontainer{
+    display: flex;
+    margin-top: 20px;
+}
+.updatetitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.updateform{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.usershow{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px #000000; 
+    box-shadow: 0px 0px 15px -10px  #000000;
+
+}
+.updateitem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.updateitem>label{
+margin-bottom: 5px;
+font-size: 14px;
+}
+.userupdate{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px #000000; 
+    box-shadow: 0px 0px 15px -10px  #000000;
+     margin-left: 20px;
+}
+.usershowtop{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.usershowimage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit:cover ;
+    margin-right: 10px;
+}
+.toptiitlr{
+    display: flex;
+    flex-direction: column;
+}
+.usershowname{
+    font-weight: 600;
+}
+.usershowtitle{
+    font-weight: 300;
+}
+.showtitle{
+font-size: 14px;
+font-weight: 600;
+color: rgb(178, 178, 168);
+}
+.info{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+
+}
+.icon{
+    font-size: 16px !important ;
+}
+.infotitle{
+    margin-left: 10px;
+}
+.updateimage{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.updateinput{
+    border: none;
+    width: 250px;
+    border-bottom: 1px solid grey;
+    height: 30px;
+}
+.updateright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.updateuplode{
+    display: flex;
+    align-items: center;
+}
+.sss{
+    cursor: pointer;
+}
+.updatebutton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+}
