@@ -1,6 +1,6 @@
 import { Visibility } from "@mui/icons-material";
 import React from "react";
-import "./WidgetSm.css";
+import "./widgetsm.css";
 
 export default function WidgetSm() {
   return (

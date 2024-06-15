@@ -1,4 +1,4 @@
-import "./Sidebar.css";
+import "./sidebar.css";
 import React from "react";
 import HomeIcon from "@mui/icons-material/Home";
 import MultilineChartIcon from "@mui/icons-material/MultilineChart";
