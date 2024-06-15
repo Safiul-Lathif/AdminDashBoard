@@ -1,12 +1,12 @@
 import React from "react";
-import Sidebar from "./Components/Sidebar/Sidebar";
-import Topbar from "./Components/Topbar/Topbar";
+import Sidebar from "./components/sidebar/Sidebar";
+import Topbar from "./components/topbar/Topbar";
 import "./App.css";
-import Home from "./Pages/Home/Home";
+import Home from "./pages/home/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import UserList from "./Pages/UserList/UserList";
-import User from "./Pages/User/User";
-import NewUser from "./Pages/NewUser/NewUser";
+import UserList from "./pages/userlist/Userlist";
+import User from "./pages/user/User";
+import NewUser from "./pages/newuser/Newuser";
 
 function App() {
   return (

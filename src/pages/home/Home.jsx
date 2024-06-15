@@ -1,11 +1,11 @@
 import React from 'react';
 import Chart from '../../components/chart/Chart';
-import Featuredubfo from '../../components/featuredinfo/FeaturedInfo';
-import Widgetlg from '../../components/widgetlg/WidgetLg';
-import Widgetsm from '../../components/widgetsm/WidgetSm';
-import { userData } from '../../DummyData';
+import Featuredubfo from '../../components/featuredinfo/Featuredinfo';
+import Widgetlg from '../../components/widgetlg/Widgetlg';
+import Widgetsm from '../../components/widgetsm/Widgetsm';
+import { userData } from '../../dummyData';
 
-import './Home.css';
+import './home.css';
 
 export default function Home() {
   return (

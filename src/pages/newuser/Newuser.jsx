@@ -1,5 +1,5 @@
 import React from "react";
-import "./NewUser.css";
+import "./newuser.css";
 
 export default function NewUser() {
   return (
